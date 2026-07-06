@@ -2,7 +2,7 @@ local vo = vim.opt
 local vg = vim.g
 local vk = vim.keymap
 local opts = { noremap = true, silent = true }
--- SET
+-- OPTION SET
 vo.termguicolors = true
 vo.cursorline = true
 vo.path:append("**") -- Recursive path search
